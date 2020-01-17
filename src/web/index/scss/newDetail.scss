@@ -1,0 +1,61 @@
+@import '@/assets/scss/commin.scss';
+.newDetailPage{
+    .pageLayer{
+        border-top: 1px solid #F3F4F5;
+        padding: 30px 30px 0;
+        .title{
+            width:690px;
+            height:88px;
+            overflow: hidden;
+            font-size:32px;
+            font-weight:bold;
+            color:rgba(51,51,51,1);
+            line-height:44px;
+            margin-bottom: 30px;
+        }
+        .time{
+            
+            .timeTitle{
+                width:104px;
+                height:34px;
+                font-size:24px;
+                font-weight:500;
+                color:rgba(153,153,153,1);
+                line-height:34px;
+            }
+            .timeNum{
+                width:146px;
+                height:34px;
+                font-size:24px;
+                font-weight:500;
+                color:rgba(153,153,153,1);
+                line-height:34px;
+            }
+        }
+        .imgLayer{
+            width: 690px;
+            height: 432px;
+            margin: auto;
+            margin: 20px auto 30px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .dispText{
+            width:690px;
+            // height:1016px;
+            font-size:26px;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:36px;
+            p{
+                text-indent: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .bottomItem{
+        height: 342px;
+    }
+}

@@ -1,0 +1,472 @@
+@import '@/assets/scss/commin.scss';
+.banner {
+    width: 100%;
+    height: 300px;
+}
+
+.banner img {
+    width: 100%;
+    height: 370px;
+}
+
+.datalist-layer {
+    // padding-bottom: 30px;
+    top: 80px;
+    z-index: 999;
+    width: 100%;
+    margin: auto;
+    margin-top: -300px;
+    background-color: #f7f8fd;
+}
+.remen{
+    font-size:16px;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(82,82,82,1);
+}
+.datalist {
+    width: 1200px;
+    margin: auto;
+    .datalist-top {
+        color: #333333;
+        background-color: white;
+        width: 100%;
+        height: 215px;
+        padding-top: 31px;
+        margin-bottom: 20px;
+        //display: flex;
+        //padding: 20px 0;
+        //.datalist-topL,.more-btn{
+        //  flex: 1;
+        .debtdataStatus,
+        .debtdataTypea,
+        .debtdataType,
+        .debtdataBottom {
+            font-size: 16px;
+            padding: 5px 0;
+            float: left;
+            width: 530px;
+            margin-left: 65px;
+            margin-bottom: 20px;
+            span{
+                border-left:3px solid #3963D0 ;
+                padding-left: 10px;
+                font-weight: 800;
+            }
+            ul.debtdataStatus-list,
+            ul.debtdataType-list {
+                display: inline-block;
+                li {
+                    display: inline-block;
+                    padding: 0 23px;
+                    cursor: pointer;
+                    &.active {
+                        background: #3963D0;
+                        color: white;
+//                      border: 1px solid rgba(255, 223, 173, 1);
+//                      color: rgba(255, 223, 173, 1);
+                        padding: 5px 23px;
+                    }
+                }
+            }
+            ul.debtdataTypea-list {
+                display: inline-block;
+                li {
+                    display: inline-block;
+                    padding: 0 23px;
+                    cursor: pointer;
+                    &.active {
+                        background: #3963D0;
+                        color: white;
+//                      border: 1px solid rgba(255, 223, 173, 1);
+//                      color: rgba(255, 223, 173, 1);
+                        padding: 5px 23px;
+                    }
+                }
+            }
+            ul.debtdataBottom-list {
+                display: inline-block;
+                li {
+                    float: left;
+                    padding: 0 23px;
+                    cursor: pointer;
+                    &.active {
+                        
+                        border: 1px solid rgba(255, 223, 173, 1);
+                        color: rgba(255, 223, 173, 1);
+                        // padding: 5px 8px;
+                    }
+                }
+            }
+        }
+        .debtdataType {}
+        .rightsearch {
+            width: 210px;
+            height: 30px;
+            line-height: 30px;
+            margin-left: 63px;
+            margin-bottom: 50px;
+            .bar7{
+                width: 660px;
+                background:rgba(255,255,255,1);
+                border:1px solid rgba(204,204,204,1);
+                border-radius:20px 20px 20px 20px;
+            }
+            .bar7 form {
+                height: 42px;
+            }
+            .bar7 input {
+                width: 595px;
+                height: 42px;
+                line-height: 40px;
+                border-radius: 42px;
+                background:none;
+                // opacity:0.3;
+               
+                text-indent: 2em;
+                color: #666666;
+                outline: none;
+                border: none;
+            }
+           
+            .bar7 .button {
+                background: none;
+                line-height: 40px;
+                cursor: pointer;
+                position: absolute;
+                color: #666666;
+                border: none;
+                top: -1px;
+                right: -1px;
+                width:62px;
+                height:44px;
+                background:rgba(57,99,208,1);
+                border-radius:0px 20px 20px 0px;
+            }
+            .bar7 .button:before {
+                font-family: FontAwesome;
+                color: #324b4e;
+            }
+            // padding: 0px 5px;
+            //background-color: n;
+            // background-color: #0089FD;
+            .rightsearch-input {
+                border: 0px;
+                outline: none;
+                color: rgba(230, 230, 230, 1);
+                height: 29px;
+                width: 161px;
+                padding: 0 5px;
+                position: absolute;
+                background-color: transparent;
+            }
+            img {
+                width: 23px;
+                height: 23px;
+                margin-left: 15px;
+                vertical-align: middle;
+            }
+            .rightsearch-layerR-img {}
+        }
+    }
+    .debtdataBottom {
+            ul.debtdataBottom-list {
+                li {
+                    line-height: 33px;
+                    border: 1px solid #ffffff;
+                }
+            }
+        }
+    .debtdataBottom {
+            font-size: 16px;
+            padding: 5px 0;
+            float: left;
+            width: 100%;
+            background: white;
+            span{
+                border-left:3px solid #3963D0 ;
+                padding-left: 10px;
+                font-weight: 800;
+            }
+            ul.debtdataStatus-list,
+            ul.debtdataType-list {
+                display: inline-block;
+                margin-left: 38px;
+                li {
+                    display: inline-block;
+                    padding: 0 100px;
+                    cursor: pointer;
+                    &.active {
+                        background: #3963D0;
+                        color: white;
+//                      border: 1px solid rgba(255, 223, 173, 1);
+//                      color: rgba(255, 223, 173, 1);
+                        padding: 5px 23px;
+                    }
+                }
+            }
+            ul.debtdataBottom-list {
+                display: inline-block;
+                margin-left: 38px;
+                li {
+                    float: left;
+                    padding: 0 100px;
+                    cursor: pointer;
+                    &.active {
+                        
+                        border: 1px solid rgba(255, 223, 173, 1);
+                        color: rgba(255, 223, 173, 1);
+                        // padding: 5px 8px;
+                    }
+                }
+            }
+        }
+    .rightsearch-layer {
+        border-radius: 4px;
+    }
+    .more-btn {
+        text-align: right;
+        vertical-align: middle;
+        line-height: 30px;
+        height: 30px;
+        cursor: pointer;
+        //text-align: center;
+    }
+}
+
+.datalist-specific {
+    //display: flex;
+    background-color: transparent;
+    z-index: 99;
+    position: relative;
+    margin-top: 20px;
+    li {
+        background: #fff;
+        display: flex;
+        flex: 1;
+        height: 180px;
+        border: 1px solid rgba(242, 242, 242, 1);
+        border-radius: 2px;
+        background-color: white !important;
+        overflow: hidden;
+        // padding: 10px 10px 0;
+        // margin-bottom: 10px;
+        border-bottom: 1px solid rgba(242, 242, 242, 1);
+        .datalist-specificL {
+            flex: 1;
+            // height: 114px;
+            text-align: center;
+            vertical-align: middle;
+            margin-top: 37px;
+            margin-left: 22px;
+            margin-bottom: 20px;
+            margin-right: 28px;
+            border-right: 1px solid rgba(217, 217, 217, 1);
+            &>img {
+                display: block;
+                margin-top: 25px;
+            }
+        }
+        .datalist-specificR {
+            padding: 10px 30px;
+            flex: 7;
+            .datalist-specificR-top {
+                display: flex;
+                font-size: 12px;
+                margin-top: 30px;
+                .datalist-specificR-topL {
+                    // flex: 1;
+                    width: 755px;
+                    height: 32px;
+                    float: left;
+                    .pfName {
+                        text-align: center;
+                        float: left;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 20px;
+                        font-family: SourceHanSansCN-Bold;
+                        font-weight: bold;
+                        color: rgba(77, 77, 77, 1);
+                        margin-right: 29px;
+                    }
+                    .discount-text {
+                        float: left;
+                        width: 60px;
+                        height: 20px;
+                        line-height: 20px;
+                        text-align: center;
+                        border: 1px solid rgba(57, 99, 208, 1);
+                        border-radius: 15px;
+                        font-size: 16px;
+                        color: rgba(57, 99, 208, 1);
+                        margin-top: 7px;
+                        margin-right: 10px;
+                    }
+                    .discount_zui{
+                        height: 26px;
+                        font-size:14px;
+                        font-family:PingFang-SC-Medium;
+                        font-weight:500;
+                        color:rgba(255,255,255,1);
+                        line-height: 26px;
+                        float: left;
+                        padding: 0px 20px 0px 20px;
+                        margin-right: 10px;
+                        margin-top: 4px;
+                    }
+                    .discount_zuia{
+                        height: 26px;
+                        font-size:14px;
+                        font-family:PingFang-SC-Medium;
+                        font-weight:500;
+                        color:rgba(255,255,255,1);
+                        line-height: 26px;
+                        float: left;
+                        padding: 0px 27px 0px 22px;
+                        margin-right: 10px;
+                        margin-top: 4px;
+                    }
+                    .prepay-text {
+                        float: left;
+                       width: 60px;
+                        height: 20px;
+                        line-height: 20px;
+                        text-align: center;
+                        font-size: 16px;
+                        border: 1px solid rgba(247, 187, 81, 1);
+                        border-radius: 15px;
+                        color: rgba(247, 187, 81, 1);
+                        margin-top: 7px;
+                         margin-right: 10px;
+                    }
+                    .orient-text {
+                        float: left;
+                        width: 60px;
+                        height: 20px;
+                        line-height: 20px;
+                        text-align: center;
+                        font-size: 16px;
+                        border: 1px solid rgba(242, 48, 47, 1);
+                        border-radius: 15px;
+                        color: rgba(242, 48, 47, 1);
+                        margin-top: 7px;
+                        margin-right: 10px;
+                    }
+                }
+                .datalist-specificR-topR {
+                    // flex: 1;
+                    width: 233px;
+                    float: left;
+                    text-align: right;
+                    color: #666666;
+                    // margin-left: 450px;
+                    img {
+                        margin-right: 8px;
+                    }
+                    .link-text {
+                        margin-right: 20px;
+                        font-size: 14px;
+                        float: left;
+                        width: 97px;
+                        height: 22px;
+                        line-height: 22px;
+                        cursor: pointer;
+                        &>div {
+                            float: left;
+                        }
+                    }
+                    .Rdiscount-text {
+                        font-size: 14px;
+                        float: left;
+                        width: 97px;
+                        height: 22px;
+                        line-height: 22px;
+                        cursor: pointer;
+                        margin-left: 50px;
+                        &>div {
+                            float: left;
+                        }
+                    }
+                }
+            }
+            .datalist-specificR-context {
+                display: flex;
+                // padding: 10px 0 10px;
+                margin-top: 35px;
+                font-size: 14px;
+                color: #666666;
+                .datalist-specificR-context-item {
+                    flex: 1;
+                    line-height: 26px;
+                    i {
+                        font-style: normal;
+                    }
+                    .checkdetail {
+                        width: 128px;
+                        height: 32px;
+                        line-height: 32px;
+                        text-align: center;
+                        background: rgba(57, 99, 208, 1);
+                        border-radius: 16px;
+                        font-size: 14px;
+                        font-family: MicrosoftYaHeiLight;
+                        font-weight: 300;
+                        color: rgba(255, 255, 255, 1);
+                        cursor: pointer;
+                        margin-left: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.dataList {
+    width: 1200px;
+    height: 609px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(242, 242, 242, 1);
+    border-radius: 4px 4px 0px 0px;
+    .blank {
+        height: 104px;
+        width: 100%;
+    }
+    .img {
+        margin-left: 464px;
+        height: 299px;
+        width: 273px;
+    }
+    .nodataTitle {
+        width: 100%;
+        height: 25px;
+        margin-top: 11px;
+        line-height: 25px;
+        text-align: center;
+        font-size: 18px;
+        font-family: PingFang-SC-Regular;
+        font-weight: 400;
+        color: rgba(153, 153, 153, 1);
+    }
+    .return {
+        cursor: pointer;
+        margin: auto;
+        text-align: center;
+        line-height: 42px;
+        margin-top: 40px;
+        width: 273px;
+        height: 42px;
+        background: rgba(57, 99, 208, 1);
+        border-radius: 20px;
+        font-size: 18px;
+        font-family: MicrosoftYaHeiLight;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+.height540 {
+    height: 540px;
+}
+
+//}

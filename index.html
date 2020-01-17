@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <!--<meta name="referrer" content="no-referrer|no-referrer-when-downgrade|origin|origin-when-crossorigin|unsafe-url">-->
+    <!--<meta name="referrer" content="no-referrer"/>-->
+    <meta name="description" content="爱心购-为您提供正品低价的购物选择、优质便捷的服务体验。商品来自国内外品牌商家，商品保质保量。服务千万农户，扶贫消薄，三农振兴" />
+    <meta name="Keywords" content="爱心购,网上购物,网上商城,消薄平台,扶贫,帮困" />
+    <meta name="baidu-site-verification" content="aK9SZtKITJ" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <link rel="shortcut icon " type="images/x-icon" href="./favicon.ico">
+    <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/element-ui@2.3.7/lib/theme-chalk/index.css"> -->
+
+    <link rel="icon" href="./static/favicon.ico" />
+    <!-- <script src="https://unpkg.com/element-ui@2.3.7/lib/index.js"></script> -->
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=DDd05fcba9fea5b83bf648515e04fc4c"></script>
+</head>
+
+<body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+<script>
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"
+            ];
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                        flag = false;
+                        break;
+                }
+            }
+            return flag;
+        }
+        if (!IsPC()) {
+        //    window.location.href = 'https://www.ixgoo.cn/h5/';
+        }
+        //   console.log(IsPC())
+</script>
+</html>

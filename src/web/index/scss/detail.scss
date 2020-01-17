@@ -1,0 +1,372 @@
+@import '@/assets/scss/commin.scss';
+.detail {
+    .debtxin{
+        width: 1200px;
+        overflow: hidden;
+        margin:0 auto;
+        background: white;
+        .debtxin_left{
+            width: 727px;
+            overflow: hidden;
+            float: left;
+            .qianz{
+                width: 100%;
+                height: 160px;
+                float: left;
+                h1{
+                    font-size:40px;
+                    font-family:Akrobat-Black;
+                    font-weight:900;
+                    color:rgba(102,102,102,1);
+                    text-align: center;
+                    line-height: 115px;
+                    span{
+                        font-size:12px;
+                        font-family:MicrosoftYaHeiLight;
+                        font-weight:300;
+                        color:rgba(179,179,179,1);
+                    }
+                }
+            }
+            .debtxin_left_top{
+                width:700px;
+                overflow: hidden;
+                float: right;
+                margin-top: 20px;
+                img{
+                    width:52px;
+                    height:52px;
+                    float: left;
+                    margin-right: 20px;
+                }
+                h1{
+                    font-size:18px;
+                    font-family:MicrosoftYaHei;
+                    font-weight:bold;
+                    color:rgba(77,77,77,1);
+                    line-height: 50px;
+                    span{
+                        width:70px;
+                        height:20px;
+                        background:rgba(247,247,247,1);
+                        border-radius:4px;
+                        display: inline-block;
+                        font-size:12px;
+                        font-family:MicrosoftYaHeiLight;
+                        font-weight:300;
+                        color:rgba(139,143,151,1);
+                        line-height: 20px;
+                        margin-left: 10px;
+                        text-align: center;
+                    }
+                }
+                div{
+                    float: right;
+                    b.topb{
+                        font-size:12px;
+                        font-family:MicrosoftYaHei;
+                        font-weight:bold;
+                        color:rgba(51,51,51,1);
+                        margin-right: 10px;
+                    }
+                    b.topa{
+                       width:106px;
+                        height:20px;
+                        background:rgba(250,250,250,1);
+                        border-radius:10px 0px 0px 10px;
+                        display: inline-block;
+                        font-size:12px;
+                        font-family:MicrosoftYaHeiLight;
+                        font-weight:300;
+                        color:rgba(153,153,153,1);
+                        line-height:21px;
+                        img{
+                            width:16px;
+                            height:14px;
+                            float: left;
+                            margin-left: 21px;
+                            margin-top: 4px;
+                            margin-right: 3px;
+                        }
+                    }
+                }
+                .biaoqian{
+                    width: 100%;
+                    overflow: hidden;
+                    p{
+                        width:44px;
+                        height:16px;
+                        border:1px solid rgba(255,133,51,1);
+                        border-radius:8px;
+                        float: left;
+                        font-size:12px;
+                        font-family:MicrosoftYaHeiLight;
+                        font-weight:300;
+                        color:rgba(255,106,70,1);
+                        margin-right: 10px;
+                        text-align: center;
+                        line-height: 16px;
+                    }
+                    span{
+                        height: 16px;
+                        font-size:12px;
+                        font-family:MicrosoftYaHeiLight;
+                        color:rgba(153,153,153,1);
+                        display: inline-block;
+                        line-height: 16px;
+                        float: right;
+                        margin-right: 30px;
+                    }
+                }
+            }
+            .debtxin_left_bom{
+                width:700px;
+                overflow: hidden;
+                float: right;
+                ul{
+                    li{
+                        width: 232px;
+                        overflow: hidden;
+                        font-size:30px;
+                        font-family:Akrobat-Light;
+                        color:rgba(102,102,102,1);
+                        float: left;
+                        span{
+                            font-size:12px;
+                            font-family:MicrosoftYaHeiLight;
+                            font-weight:300;
+                            color:rgba(179,179,179,1);
+                        }
+                        b{
+                            font-size:16px;
+                            font-family:MicrosoftYaHeiLight;
+                            font-weight:bold;
+                            color:rgba(139,143,151,1);
+                        }
+                    }
+                     li:nth-child(3){
+                         color:rgba(255,106,70,1);
+                     }
+                }
+            }
+            .huanqing{
+                width:700px;
+                overflow: hidden;
+                float: right;
+                margin-top: 25px;
+                margin-bottom: 35px;
+                font-size:14px;
+                font-family:MicrosoftYaHeiLight;
+                font-weight:bold;
+                color:rgba(153,153,153,1);
+            }
+            .bottm{
+                width: 100%;
+                overflow: hidden;
+                margin-bottom: 32px;
+                p{
+                   width:220px;
+                    height:48px;
+                    background:rgba(255,133,51,1);
+                    border-radius:2px;
+                    margin: 0 auto;
+                    font-size:16px;
+                    font-family:MicrosoftYaHei;
+                    font-weight:bold;
+                    color:rgba(255,255,255,1); 
+                    text-align: center;
+                    line-height: 48px;
+                }
+            }
+        }
+        .moli{
+            width:1px;
+            height:312px;
+            border:1px solid rgba(247,247,247,1);
+            float: left;
+            margin-top: 25px;
+        }
+        .debtxin_right{
+            width: 450px;
+            overflow: hidden;
+            float: right;
+            h2{
+                 font-size:18px;
+                font-family:MicrosoftYaHei;
+                font-weight:bold;
+                color:rgba(77,77,77,1);
+                line-height: 50px;
+                margin-top: 20px;
+            }
+            .quxian{
+                width: 100%;
+                height:270px;
+                .echarts{
+                    height: 280px !important;
+                    div{
+                        height: 278px !important;
+                    }
+                }
+                
+            }
+        }
+    }
+    .chakan{
+        width: 1200px;
+        height: 60px;
+        line-height: 60px;
+        font-size:14px;
+        font-family:MicrosoftYaHeiLight;
+        font-weight:300;
+        color:rgba(51,51,51,1);
+        text-align: center;
+        margin: 0 auto;
+        background: white;
+        border-top:1px solid rgba(247,247,247,1) ;
+    }
+}
+
+
+
+//新列表样式
+.liebiao{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: white;
+    box-sizing: border-box;
+     padding: 10px 8px;
+    .liebiao_left{
+        width:591px;
+        height:160px;
+        background:rgba(255,255,255,1);
+        float: left;
+        border-bottom: 1px solid #F7F7F7;
+        .liebiao_left_top{
+            width: 570px;
+            overflow: hidden;
+            float: right;
+            margin-top: 15px;
+             h1{
+                font-size:18px;
+                font-family:MicrosoftYaHei;
+                font-weight:bold;
+                color:rgba(77,77,77,1);
+                line-height: 40px;
+                span{
+                    width:70px;
+                    height:20px;
+                    background:rgba(247,247,247,1);
+                    border-radius:4px;
+                    display: inline-block;
+                    font-size:12px;
+                    font-family:MicrosoftYaHeiLight;
+                    font-weight:300;
+                    color:rgba(139,143,151,1);
+                    line-height: 20px;
+                    text-align: center;
+                    margin-left: 10px;
+                }
+                a{
+                    cursor: pointer;
+                }
+                b{
+                    width:106px;
+                    height:20px;
+                    background:rgba(250,250,250,1);
+                    border-radius:10px 0px 0px 10px;
+                    float: right;
+                    display: inline-block;
+                    font-size:12px;
+                    font-family:MicrosoftYaHeiLight;
+                    font-weight:300;
+                    color:rgba(153,153,153,1);
+                    line-height:20px;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    img{
+                        width: 16px;
+                        height: 14px;
+                        float: left;
+                        margin-top: 2px;
+                        margin-left: 18px;
+                         margin-right: 3px;
+                    }
+                }
+            }
+            p{
+                width:44px;
+                height:16px;
+                border:1px solid rgba(255,133,51,1);
+                border-radius:8px;
+                float: left;
+                text-align: center;
+                line-height: 16px;
+                font-size:12px;
+                font-family:MicrosoftYaHeiLight;
+                font-weight:300;
+                color:rgba(255,106,70,1);
+                margin-right: 10px;
+            }
+            div{
+                width:100px;
+                height:16px;
+                font-size:12px;
+                font-family:MicrosoftYaHeiLight;
+                font-weight:300;
+                color:rgba(153,153,153,1);
+                line-height:16px;
+                text-align: center;
+                float: right;
+            }
+        }
+       .liebiao_left_bo{
+           width: 570px;
+           overflow: hidden;
+           float: right;
+           margin-top: 10px;
+           cursor: pointer;
+           ul{
+               li{
+                   width: 190px;
+                   float: left;
+                   font-size:16px;
+                    font-family:MicrosoftYaHeiLight;
+                    color:rgba(102,102,102,1);
+                    line-height: 25px;
+                    span{
+                        font-size:12px;
+                        font-family:MicrosoftYaHeiLight;
+                        font-weight:300;
+                        color:rgba(179,179,179,1);
+                    }
+                    h4{
+                        font-size:40px;
+                        font-family:MicrosoftYaHei;
+                        font-weight:400;
+                        color:rgba(255,106,70,1);
+                        margin-left: 60px;
+                        b{
+                            font-size:16px;
+                            font-family:MicrosoftYaHeiLight;
+                            font-weight:bold;
+                            color:rgba(139,143,151,1);
+                            margin-left: 5px;
+                        }
+                    }
+               }
+               li:nth-child(3){
+                   line-height: 60px;
+               }
+           }
+       }
+    }
+    .liebiao_left:hover{
+        position: relative;
+        box-shadow:0px 0px 29px 0px rgba(255,133,51,0.26); 
+        z-index: 66;
+    }
+    .liebiao_left:nth-child(odd){
+        border-right:1px solid #F7F7F7;
+    }
+}
